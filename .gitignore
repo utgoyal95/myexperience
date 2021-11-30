@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+True.csv
+Fake.csv
 
 # C extensions
 *.so
