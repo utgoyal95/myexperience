@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 True.csv
 Fake.csv
+.\myexperience\projects\forecasting\demand_forecasting\data
 
 # C extensions
 *.so
