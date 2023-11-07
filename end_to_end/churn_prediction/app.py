@@ -30,7 +30,7 @@ input_data['PaymentMethod'] = st.selectbox("Partner", ['Electronic check','Maile
 input_data['MonthlyCharges'] =  st.number_input("Monthly Charges", step=1)
 input_data['TotalCharges'] =  st.number_input("Total Charges", step=1)
 
-out_data = {'Yes':'They are likely to churn.', 'No':'They are not likely to churn.'}
+out_data = {1:'They are likely to churn.', 0:'They are not likely to churn.'}
   # Create a button to make a prediction
 if st.button("Predict"):
     # Convert the input data to a pandas DataFrame
