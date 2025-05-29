@@ -1,0 +1,3 @@
+1. https://realpython.com/sentiment-analysis-python/
+
+2. https://realpython.com/python-keras-text-classification/
